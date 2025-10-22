@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  # datasource will be injected from Testcontainers via DynamicPropertySource
+
+jwt:
+  # >= 32 chars for HS256
+  secret: "super-secret-jwt-key-for-tests-32bytes-minimum!!"
