@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/skillmatch_db
-    username: skillmatch_user
-    password: skillmatch_pass
+    url: jdbc:postgresql://localhost:5432/skillmatch_auth_dev
+    username: postgres
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: update
